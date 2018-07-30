@@ -1,0 +1,556 @@
+/*main csss for SVG*/
+
+@media screen and (max-width: 1920px) {
+    #stage {
+	display: inline-block;
+	width: 800px;
+	height: 2720px;
+	/*border-style: solid;
+	border-color: red;*/
+	float: left;
+	overflow: hidden;
+}
+
+.modal > div {
+    width: 500px;
+	height: auto;
+	opacity: 1;
+    background: #aaa;
+    position: relative;
+    margin: 13% auto;
+
+    /* Default minimise animation */
+    -webkit-animation: minimise 500ms linear;
+    -moz-animation: minimise 500ms linear;
+    animation: minimise 500ms linear;
+
+    /* Prettify */
+    padding: 30px;
+    border-radius: 7px;
+    background: white;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  /*  background: #aaa;
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc); */
+    text-shadow: 0 1px 0 #fff;
+}
+
+}
+
+@media screen and (max-width: 1366px) {
+    #stage {
+	display: inline-block;
+	width: 800px;
+	height: 2725px;
+	/*border-style: solid;
+	border-color: red;*/
+	/*position: absolute;
+    left: 60px;*/
+	float: left;
+	overflow: hidden;
+}
+
+.modal > div {
+    width: 500px;
+	height: auto;
+	opacity: 1;
+    background: #aaa;
+    position: relative;
+    margin: 13% auto;
+
+    /* Default minimise animation */
+    -webkit-animation: minimise 500ms linear;
+    -moz-animation: minimise 500ms linear;
+    animation: minimise 500ms linear;
+
+    /* Prettify */
+    padding: 30px;
+    border-radius: 7px;
+    background: white;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  /*  background: #aaa;
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc); */
+    text-shadow: 0 1px 0 #fff;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+    #stage {
+	display: block;
+	width: 420px;
+	height: 2725px;
+	/*border-style: solid;
+	border-color: red;*/
+	position: absolute;
+    left: 60px;
+	overflow: hidden;
+}
+
+.modal > div {
+    width: 320px;
+	height: auto;
+	opacity: 1;
+    background: #aaa;
+    position: relative;
+    margin: 10% auto;
+
+    /* Default minimise animation */
+    -webkit-animation: minimise 500ms linear;
+    -moz-animation: minimise 500ms linear;
+    animation: minimise 500ms linear;
+
+    /* Prettify */
+    padding: 30px;
+    border-radius: 7px;
+    background: white;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  /*  background: #aaa;
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc); */
+    text-shadow: 0 1px 0 #fff;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+    #stage {
+	display: block;
+   /* margin: auto; */
+	width: auto;
+	height:auto;
+	/*height: 1148px;*/
+	/*border-style: solid;
+	border-color: red;*/
+	position: absolute;
+    left: 4px;
+	overflow: hidden;
+}
+
+.modal > div {
+    width: 260px;
+	height: auto;
+	opacity: 1;
+    background: #aaa;
+    position: relative;
+    margin: 10% auto;
+
+    /* Default minimise animation */
+    -webkit-animation: minimise 500ms linear;
+    -moz-animation: minimise 500ms linear;
+    animation: minimise 500ms linear;
+
+    /* Prettify */
+    padding: 30px;
+    border-radius: 7px;
+    background: white;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  /*  background: #aaa;
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc); */
+    text-shadow: 0 1px 0 #fff;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+    #stage {
+	display: block;
+    /*margin: auto;*/
+	width: auto;
+	height: auto;
+	/*height: 1014px;*/
+	/*border-style: solid;
+	border-color: red;*/
+	overflow: hidden;
+}
+
+.modal > div {
+    width: 260px;
+	height: auto;
+	opacity: 1;
+    background: #aaa;
+    position: relative;
+    margin: 10% auto;
+
+    /* Default minimise animation */
+    -webkit-animation: minimise 500ms linear;
+    -moz-animation: minimise 500ms linear;
+    animation: minimise 500ms linear;
+
+    /* Prettify */
+    padding: 30px;
+    border-radius: 7px;
+    background: white;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  /*  background: #aaa;
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc); */
+    text-shadow: 0 1px 0 #fff;
+}
+
+}
+
+/*Clouds and Sun*/
+
+#_one_cloud, #path5190  {
+	-webkit-animation-duration: 37s;
+	-moz-animation-duration: 37s;
+	        animation-duration: 37s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-name: cloud-disappear;
+	-moz-animation-name: cloud-disappear;
+	        animation-name: cloud-disappear;
+	opacity: 0.5;
+
+}
+@-webkit-keyframes floating-clouds {
+	from {
+		transform: translateX(-500px);
+	}
+	to {
+		transform: translateX(1500px);
+	}
+}
+
+
+@keyframes floating-clouds {
+	from {
+		transform: translateX(-500px);
+	}
+	to {
+		transform: translateX(1500px);
+	}
+}
+
+@-webkit-keyframes floating-clouds_ {
+	from {
+		transform: translateX(300px);
+	}
+	to {
+		transform: translateX(-1000px);
+	}
+}
+
+@-moz-keyframes floating-clouds_ {
+	from {
+		transform: translateX(300px);
+	}
+	to {
+		transform: translateX(-1000px);
+	}
+}
+
+
+@keyframes floating-clouds_ {
+	from {
+		transform: translateX(300px);
+	}
+	to {
+		transform: translateX(-1000px);
+	}
+}
+
+@-webkit-keyframes cloud-disappear {
+	0% {
+		fill: white;
+	}
+
+	100% {
+		fill: #90cff2;
+		stroke: #90cff2;
+	}
+}
+
+
+@keyframes cloud-disappear {
+	0% {
+		fill: white;
+	}
+
+	100% {
+		fill: #90cff2;
+		stroke: #90cff2;
+	}
+}
+
+#_one_cloud3 {
+	
+	-webkit-animation-duration: 30s
+	        animation-duration: 30s;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-name: floating-clouds;
+	        animation-name: floating-clouds;
+	z-index: 100;
+	opacity: 0.5;
+}
+
+#_one_cloud1, #_one_cloud3, #_one_cloud5 {
+	
+	-webkit-animation-duration: 35s;
+	        animation-duration: 35s;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-name: floating-clouds;
+	        animation-name: floating-clouds;
+	z-index: 50;
+	opacity: 0.9;
+}
+
+#_one_cloud4, #_one_cloud2, #_one_cloud6 {
+	
+	-webkit-animation-duration: 31s;
+	-moz-animation-duration: 31s;
+	        animation-duration: 31s;
+	        animation-duration: 31s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-name: floating-clouds_;
+	-moz-animation-name: floating-clouds_;
+	        animation-name: floating-clouds_;
+	z-index: 25;
+	opacity: 0.3;
+}
+
+
+@keyframes sunny {
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes sunny {
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@-moz-keyframes sunny {
+  40% {
+    transform:scale(1);
+  }
+  100% {
+    transform:scale(1.4);
+  }
+}
+
+/* Title Extraordinary */
+
+@keyframes hideshow {
+  0% { opacity: 0.7; }
+  20% { opacity: 1; }
+  60% { opacity: 0; }
+  70% { opacity: 0.3; }
+  80% { opacity: 0.6; }
+  90% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+
+#path8174, #path8172, #path8178 {
+  animation: hideshow 2s ease;
+  animation-iteration-count: 2;
+}
+
+@keyframes hideshow1 {
+  0% { opacity: 0.7; }
+  20% { opacity: 1; }
+  60% { opacity: 0; }
+  70% { opacity: 0.3; }
+  80% { opacity: 0.6; }
+  90% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+
+#path8170, #path8168 {
+  animation: hideshow1 3.3s ease;
+  animation-iteration-count: 2;
+}
+
+/* Subtitle LSR */
+
+@keyframes left-brace-intro {
+	0% { 
+		transform: translateX(1000px);
+		opacity: 0;
+	}
+	60% { 
+		opacity: 0.8;
+		transform: translateX(700px);	
+	}
+	100% { 
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+#_subtitle_lsr { 
+	animation: left-brace-intro 1s ease-in-out 0.25s;
+	animation-fill-mode: backwards; 
+}
+
+/* Custom objects*/
+/*
+@keyframes shak { 
+  0%    { transform: translate(0px, 0px) rotate(0.1); }
+  20%   { transform: translate(0px, 0px) rotate(0deg); }
+  40%   { transform: translate(0px, 0px) rotate(-0.1deg); }
+  60%   { transform: translate(0px, 0px) rotate(0deg); }
+  100%  { transform: translate(0px, 0px) rotate(0.21deg); }
+}
+
+@-moz-keyframes shak { 
+  0%    { transform: translate(0px, 0px) rotate(0.12deg); }
+  20%   { transform: translate(0px, 0px) rotate(0deg); }
+  40%   { transform: translate(0px, 0px) rotate(-0.16deg); }
+  60%   { transform: translate(0px, 0px) rotate(0deg); }
+  100%  { transform: translate(0px, 0px) rotate(0.12deg); }
+}
+
+
+@keyframes shake_ {
+  0%    { transform: translate(0px, 0px) rotate(-0.12deg); }}
+  20%   { transform: translate(0px, 0px) rotate(0deg); }
+  40%   { transform: translate(0px, 0px) rotate(0.12deg); }
+  60%   { transform: translate(0px, 0px) rotate(0deg); }
+  100%  { transform: translate(0px, 0px) rotate(-0.13deg); }
+}
+
+
+@-webkit-keyframes shake_ {
+  0%    { transform: translate(0px, 0px) rotate(-0.12deg); }
+  20%   { transform: translate(0px, 0px) rotate(0deg); }
+  40%   { transform: translate(0px, 0px) rotate(0.12deg); }
+  60%   { transform: translate(0px, 0px) rotate(0deg); }
+  100%  { transform: translate(0px, 0px) rotate(-0.13deg); }
+}
+*/
+@keyframes slant {
+  50% { transform: skew(-0.17deg); }
+}
+
+@-webkit-keyframes slant {
+  50% { transform: skew(-0.17deg); }
+}
+
+@-moz-keyframes slant {
+	50% { transform: skew(-0.17deg); }
+}
+
+@keyframes slant_ {
+  50% { transform: skew(0.17deg); }
+}
+
+@-webkit-keyframes slant_ {
+  50% { transform: skew(0.17deg); }
+}
+
+@-moz-keyframes slant_ {
+	50% { transform: skew(0.17deg); }
+}
+
+/*
+#_palmtreey{
+  animation: shak 1.48s linear infinite;
+  -moz-animation: shak 1.68s linear infinite;
+  -webkit-animation: shak 1.68s linear infinite;
+}
+#_all_treee{
+  animation: shake_ 1.48s linear infinite;
+  -moz-animation: shake_ 1.68s linear infinite;
+  -webkit-animation: shak 1.68s linear infinite;
+} */
+
+#_all_tree{
+   animation: slant 4s ease-in-out infinite both;
+   -webkit-animation: slant 4s ease-in-out infinite both;
+   -moz-animation: slant 4s ease-in-out infinite both;
+   transform: skew(0.17deg);
+}
+
+#_palmtree{
+	animation: slant_ 4s ease-in-out infinite both;
+	-webkit-animation: slant_ 4s ease-in-out infinite both;
+	-moz-animation: slant_ 4s ease-in-out infinite both;
+    transform: skew(-0.17deg);
+}
+
+/*components*/
+.cls-18_ {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+}
+
+.cls-18_1 {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -o-animation-delay: 0.7s;
+}
+
+.cls-18_2 {
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+}
+
+.cls-18_3 {
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+  -o-animation-delay: 1.1s;
+}
+
+.cls-18_4 {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+}
+
+.cls-18_5 {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+}
+
+.cls-18_6 {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+  -o-animation-delay: 1.7s;
+}
